@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class App {
     public static void main(String[] args) throws Exception {
+        System.out.println("what the fuck");
         SpringApplication.run(App.class, args);
     }
 }
